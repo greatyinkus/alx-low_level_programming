@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints all the numbers of base 16 in lowercase,
  * followed by a new line
@@ -6,14 +7,17 @@
  */
 int main(void)
 {
-        char base_16;
-        for (base_16 = 48; base_16 <= 57; base_16++)
-        {putchar(base_16);
-        }
-        for (base_16 = 97 ; base_16 <= 102; base_16++)
-        {
-        putchar(base_16);
-        }
-        putchar ('\n');
-        return (0);
+	int n;
+	char ch;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
