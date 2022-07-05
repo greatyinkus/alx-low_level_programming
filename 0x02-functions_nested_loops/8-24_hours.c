@@ -20,7 +20,3 @@ _putchar ('\n');
 }
 }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
