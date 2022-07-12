@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- *  _strien - returns the length of a string
- *  @s: input string
+ * _strlen - returns the length of a string
+ * @s: input string
  *
- *  Return: lenght of s
+ * Return: length of s
  */
-int _strien(char *s)
+int _strlen(char *s)
 {
-		int i = 0;
+	int i = 0;
 
-		while (*(s +i))
-			i++;
-		return (i);
+	while (*(s + i))
+		i++;
+	return (i);
 }
