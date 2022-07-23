@@ -12,12 +12,13 @@ bool is_num(char *argvv)
 
 {
 int j = 0;
+
 for (j = 0; argvv[j]; j++)
 {
 if (!(argvv[j] >= '0' && argvv[j] <= '9'))
 return (0);
 }
-reture (1);
+return (1);
 }
 
 /**
@@ -31,7 +32,7 @@ int main(int argc, char *argv[])
 
 {
 int i = 1;
-int sum = 0
+int sum = 0;
 
 if (argc == 1)
 {
