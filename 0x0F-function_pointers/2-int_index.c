@@ -10,10 +10,11 @@
  * the cmp function does not return 0.
  */
 
-int int_index(int *array, int size, int (*cmp)(int)
+int int_index(int *array, int size, int (*cmp)(int))
 
 {
 int index;
+
 if (array == NULL || cmp == NULL)
 return (-1);
 for (index = 0; index < size; index++)
